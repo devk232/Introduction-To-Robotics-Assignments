@@ -3,9 +3,9 @@
 
 ## Running the program: 
 
-`pip install numpy`
+* `$ pip install numpy`
 
-`python3 2019BCS018.py`
+* `$ python3 2019BCS018.py`
 
 ## Sample Input - Output
 

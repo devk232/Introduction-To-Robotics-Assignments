@@ -26,4 +26,6 @@ matrix = np.identity((4));
 for i in range(1, 7):
   matrix = matrix@(transform(i, i - 1))
 
-print(matrix)
+point = np.array(list(map(int, input("enter point - ").strip().split())))
+
+print(matrix@point)
